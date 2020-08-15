@@ -1,0 +1,134 @@
+html,body {
+    margin: 0em;
+    padding: 0em;
+    font-family: cursive;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content:;
+    align-items: ;
+   // background:rgb(200, 214, 226);
+}
+
+.d1 {
+    flex:1;
+    background: rgb(66, 43, 52);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.d2 {
+    flex:10;
+    background: ;
+    display: flex;
+    justify-content:;
+    align-items:;
+
+
+}
+
+.d3 {
+    flex:2;
+    background: rgb(66, 43, 52);
+}
+
+.d1 .d1part1 .logo {
+    text-align: center; 
+    margin-left:1em;
+}
+
+.d1 .d1part1 .logo .wo {
+    font-family: cursive; 
+    font-weight: bold; 
+    color: darkgrey; 
+    padding:0em;
+}
+
+.d1part1 {
+
+    flex:12;
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+}
+
+.d1part2 {
+    flex:1;
+}
+
+a {
+    
+    text-decoration: none;
+    color: darkgrey; 
+}
+
+.d1 .d1part1 .icon {
+    margin-left: 3em;
+}
+
+a hover {
+    
+}
+
+.d2 .d2part1 {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    background: rebeccapurple;
+
+}
+
+
+.d2 .d2part2 {
+    flex:3;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+
+.d2 .d2part3 {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    background: peru;
+}
+
+.d2p2status {
+    border:1px solid white;
+    display:flex;
+    flex-direction: column;
+    margin: 0.7em;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.d2p2status .d2p2h {
+    color: darkgray;
+    margin-left: 0.5em;
+}
+
+.d2p2status .status {
+    padding: 0.1em;
+    width:95%;
+    margin:0.5em;
+    height:5vh;
+    border:1px solid darkgrey;
+}
+
+.d2p2status .post {
+    margin: 0.5em;
+}
+
+button {
+    color:grey;
+}
