@@ -1,0 +1,30 @@
+body {
+    background: url("log.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginform .login2 {
+    background: white;
+    border: 2px solid darkgray;
+    margin:1em;
+    padding: 1em;
+    width:70vh;
+    box-shadow:5px 10px grey;
+    border-radius: 0.5em; 
+}
+
+button {
+    width:90%;
+    align-items: center;
+    margin:1em;
+}
