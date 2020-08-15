@@ -1,0 +1,21 @@
+html,body {
+    margin:0;
+    padding:0;
+    background:rgb(245, 213, 218);
+}
+
+
+.headclass {
+    display:flex;
+    align-items: center;
+}
+
+.bordor {
+    border: 5px solid black;
+    position: absolute;
+    width: 600px;
+    z-index: 15;
+    top: 10%;
+    left: 40%;
+    margin: 0 0 0 -160px;
+}

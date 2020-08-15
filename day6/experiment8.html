@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex8</title>
+    <script src="ex6.js"></script>
+</head>
+<body>
+    <div class="upper">
+        <h3>comment something here..</h3>
+        <div class="1stchild">
+            <input type="text" id="input1" placeholder="write here">
+        </div>
+        <div style="margin:1em;">
+            <button id="like1" onclick="likeit()">like</button>
+            <button id="comm" onclick="commentit()">comment</button>
+        </div>
+        
+
+    </div>
+
+    <div id="commentbox" >
+        <div id="commentre" style="display:flex; justify-content: space-between; border:1px solid grey; visibility: hidden;">
+        <div>comment</div>
+        <button onclick="deletecom(this)">delete</button>
+    </div>
+    </div>
+</body>
+</html>
