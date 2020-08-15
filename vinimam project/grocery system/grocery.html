@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>G</title>
+    <script src="gro.js"></script>
+    <style>
+        body {
+            background:linear-gradient(skyblue,white);
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class=col-3></div>
+            <div  class="col-6 align-items-center justify-content-center m-5">
+                <div  class="card text-center bg-secondary">
+                    <div class="card-header bg-primary">
+                      Add grocery here
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote">
+                        <input id="input1" type="text" class="form-control" placeholder="">
+                        <a href="#" class="btn btn-primary btn-block mt-3" onclick="commentit()">Submit</a>
+                      </blockquote>
+                    </div>
+                  </div>
+                
+                  <div id="commentbox" style="margin:1em;" >
+                  <div class="card text-center border-primary m-3 bg-secondary" id="commentre">
+                    <div class="card-body">
+                      <h5 class="card-title">Item list</h5>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-primary" onclick="clearit(this)">clear list</a>
+                    </div>
+                  </div> </div> 
+        
+            </div>
+        <div class="col-3"></div>
+        </div>
+    </div>
+</body>
+</html>

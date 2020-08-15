@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    
+    <style>
+        #img1 {
+            background: url("calci.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: fixed;
+        } 
+    </style>    
+    <script src="calcu.js"></script>
+</head>
+<body>
+    <div id="img1" style="display:flex; height:100vh; justify-content: center; align-items: center; padding:0em; ">
+        
+        <div style="border:2px solid grey; border-radius: 0.3em; display:flex; flex-direction:column; justify-content:; padding:0.3em; box-shadow: 5px 5px rgba(200, 200,200,0.8); background: rgba(147, 194, 72, 0.9); height:14em">
+            <div style="margin:0.2em; "><input id="edu" type="text" placeholder="" style="border-radius: 0.3em; height:4em;"></div>
+            <div style="display: flex; justify-content: space-evenly; padding:0em; ">
+                <div style="flex:; display:flex; flex-direction: column; justify-content: space-evenly;">
+                   <div style="margin:0.3em;"> <button onclick= "display('7')" style="border-radius: 0.3em;">7</button> <button onclick="display('8')" style="border-radius: 0.3em;">8</button> <button onclick="display('9')" style="border-radius: 0.3em;">9</button> </div>
+                   <div style="margin:0.3em;"> <button onclick="display('4')" style="border-radius: 0.3em;">4</button> <button onclick="display('5')" style="border-radius: 0.3em;">5</button> <button onclick="display('6')" style="border-radius: 0.3em;">6</button> </div>
+                   <div style="margin:0.3em;"> <button onclick="display('1')" style="border-radius: 0.3em;">1</button> <button onclick="display('2')" style="border-radius: 0.3em;">2</button> <button onclick="display('3')" style="border-radius: 0.3em;">3</button> </div>
+                   <div style="margin:0.3em;"> <button onclick="display('.')" style="width:1.7em; border-radius: 0.3em;">. </button> <button onclick="display('0')" style="border-radius: 0.3em;">0</button>  <button onclick="solve()" style="border-radius: 0.3em;">=</button> </div>
+                </div>
+                <div style="flex:1 display:flex; justify-content; space-evenly; padding:0.2em;">
+                    <div>
+                    <button onclick="display('/')" style=" border-radius: 0.3em; margin:0.3em; width:2em;">%</button></div>
+                    <div>
+                        <button onclick="display('*')" style=" border-radius: 0.3em; margin:0.3em; width:2em;">x</button></div>
+                    <div>
+                        <button onclick="display('+')" style=" border-radius: 0.3em; margin:0.3em; width:2em;">+</button></div> 
+                    <div>
+                        <button onclick="display('-')" style=" border-radius: 0.3em; margin:0.3em; width:2em;">-</button></div>        
+                </div>
+                
+            </div>
+            
+            <div style="display:flex; justify-content: center; ">
+                <button onclick="clr()" style=" border-radius: 0.3em; margin:0.5em; width:8em;">clr</button></div>
+        </div>
+    </div>
+</body>
+</html>
