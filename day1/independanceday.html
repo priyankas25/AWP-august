@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        html,body {
+            margin:0em;
+            padding:0em;
+        }
+
+        .myclass {
+            background: linear-gradient(orange, whitesmoke, lightgreen);
+            height:100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+    <script>
+        function namee(){
+            let n = document.querySelector("#input1").value;
+            let m =document.querySelector("#name");
+            m.innerHTML = n;
+        }
+    </script>
+
+</head>
+<body>
+    <div id="bu" style="display:flex; justify-content: center; align-items: center; height:100vh;">
+        <input id="input1" type="text" placeholder="enter your name" style="border-radius: 0.4em; height:2em;">
+           <a href="#sec"> <button onclick="namee()" class="btn" style="background:linear-gradient(orange, whitesmoke, lightgreen); border-radius: 0.5em; margin:0.4em" >click me</button></a>
+    </div>
+
+    <section id="sec">
+    <div class="myclass" style="display:flex; flex-direction: column; visibility:; margin:0em;">
+       <div style="display:flex; flex-direction: column; height:50vh; justify-content: center; align-items: center;"><p> <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Spinning_Ashoka_Chakra.gif" height="70"></p>
+        <p style="color:darkblue; height=100vh; margin:5px; font-weight: bold; font-size: 2em; text-align: center;">Happy indepandance day <br> 15/08/2020</p>
+        <p id="name" style="color:darkblue; font-weight: bold; font-size: 2em;">.</p></div>
+
+
+        <div id="fire" style="display: flex; height:10vh; justify-items: center; align-items: center; margin:0em;">
+        <p> <img src="https://i.gifer.com/VZvx.gif" height="100"></p>
+        <p> <img src="https://i.gifer.com/VZvx.gif" height="100"></p>
+        <p> <img src="https://i.gifer.com/VZvx.gif" height="100"></p></div>
+    </div>
+    </section>
+     
+</body>
+</html>
